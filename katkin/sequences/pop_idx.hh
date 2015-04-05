@@ -42,7 +42,7 @@ namespace katkin
     };
 
     //zero position at end of the list
-    template< class head_t, class tail_t, class subj_t >
+    template< class subj_t >
     class _x< _pop_idx< _node< _, _ >, _i< 0 > >, subj_t >
     {
         public:

@@ -34,7 +34,7 @@ namespace katkin
     };
 
     //key position at end of the list
-    template< class head_t, class tail_t, class pos_t, class entry_t, class subj_t >
+    template< class pos_t, class entry_t, class subj_t >
     class _x< _sub_key< _node< _, _ >, pos_t, entry_t >, subj_t >
     {
         public:
