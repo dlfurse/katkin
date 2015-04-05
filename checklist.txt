@@ -1,0 +1,75 @@
+katkin metaprogramming facility
+
+ideas:
+	* all things are abstract, tree-like data structures.
+	* there is exactly one algorithm, and that is the combination of two structures such that one is interpreted as a grammar and another is interpreted as data
+	* typedefs are production rules
+	* the r of production rules shall always be 
+	* _1 placeholder style
+	* _ wildcard style
+	* can _ be used as both wildcard and evaluation? no.
+
+core:
+	_x [X]
+	name [X]
+	print
+	unspecified [X]
+
+types:
+	boolean (c++ bool) _b [X]
+	integral (c++ int) _i [X]
+
+containers:
+	node [X]
+	key [X]
+	length [X]
+	join [X]
+	at_front [X]
+	push_front [X]
+	pop_front [X]
+	sub_front [X]
+	at_back [X]
+	push_back [X]
+	pop_back [X]
+	sub_back [X]
+	at [X]
+	push [X]
+	pop [X]
+	sub [X]
+
+operations:
+	arithmetic:
+		plus [X]
+		minus [X]
+		add [X]
+		subtract [X]
+		multiply [X]
+		divide [X]
+		modulo [X]
+		increment [X]
+		decrement [X]
+
+	logical:
+		and [X]
+		or  [X]
+		not [X]
+
+	bitwise:
+		bitand
+		bitor
+		bitxor
+		bitnot
+		leftshift
+		rightshift
+
+	comparison:
+		equal [X]
+		unequal [X]
+		larger [X]
+		smaller [X]
+		largerequal [X]
+		smallerequal [X]
+
+algorithms:
+	fold
+	placeholder
